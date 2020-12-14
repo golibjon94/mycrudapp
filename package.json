@@ -1,4 +1,5 @@
-{ "homepage": "https://github.com/golibjon94/mycrudapp.git",
+{ 
+  "homepage": "https://golibjon94.github.io/mycrudapp/",
   "name": "mycrudapp",
   "version": "0.1.0",
   "private": true,
