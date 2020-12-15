@@ -1,16 +1,4 @@
-export let = todos [
-    {
-        id: 1,
-        name: "One",
-    },
+import {createStore} from 'redux';
+import {reduxer} from './reducer';
 
-    {
-        id: 2,
-        name: "Two",
-    },
-
-    {
-        id: 3,
-        name: "three",
-    },
-]
+export let store = createStore(reduxer);
