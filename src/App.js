@@ -5,7 +5,7 @@ import Todolist from './components/TodoList';
 import 'bootstrap/dist/css/bootstrap.css';
 function App() {
   return (
-    <div className="App" m-3>
+    <div className="App m-3">
       <TodoInput/>
       <Todolist/>
     </div>
